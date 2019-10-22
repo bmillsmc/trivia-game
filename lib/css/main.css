@@ -55,7 +55,14 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    border: dashed grey 1px;
+    border-radius: 20px;
+}
+
+.trivia-game:hover {
+    border: solid grey 1px;
+    box-shadow: inset 3px 3px 3px grey;
 }
 
 .question {
@@ -67,17 +74,20 @@ ul {
     padding: 5px;
     cursor: pointer;
     border: 1px black dashed;
+    box-shadow: 1px 1px 2px black;
 }
 
 .answer:hover {
     background-color: lightblue;
     border: 1px black solid;
+    box-shadow: none;
 }
 
 
 
 .right-answer {
     background-color: lightgreen;
+    box-shadow: 3px 5px 5px darkgreen;
     
 }
 

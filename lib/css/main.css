@@ -53,5 +53,9 @@ footer {
 }
 
 .hidden {
+    display: none;
+}
+
+.roundend {
     
 }

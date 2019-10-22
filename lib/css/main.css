@@ -40,6 +40,15 @@ ul {
     padding: 0;
 }
 
+.game-box {
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .trivia-game {
     width: 80%;
     height: 90%;
@@ -57,14 +66,42 @@ ul {
     margin: 5px;
     padding: 5px;
     cursor: pointer;
+    border: 1px black dashed;
 }
 
+.answer:hover {
+    background-color: lightblue;
+    border: 1px black solid;
+}
+
+
+
 .right-answer {
+    background-color: lightgreen;
+    
+}
+
+.wrong-answer {
+    background-color: lightcoral;
+}
+
+.right-answer, .wrong-answer {
+    border: solid black 1px;
     pointer-events: none;
 }
 
 .hidden {
     display: none;
+}
+
+.button {
+    padding: 5px;
+    cursor: pointer;
+    background-color: lightgrey;
+}
+
+.button:hover {
+    background-color: grey;
 }
 
 .roundend {

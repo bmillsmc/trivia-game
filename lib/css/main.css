@@ -122,6 +122,7 @@ ul {
 .button-box {
     display: flex;
     justify-content: space-around;
+    width: 20%;
 }
 
 .roundend {

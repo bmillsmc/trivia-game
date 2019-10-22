@@ -60,7 +60,7 @@ ul {
     border-radius: 20px;
 }
 
-.trivia-game:hover {
+.trivia-game:onclick {
     border: solid grey 1px;
     box-shadow: inset 3px 3px 3px grey;
 }

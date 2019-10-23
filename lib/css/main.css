@@ -67,6 +67,7 @@ ul {
 
 .question {
     font-size: 24px;
+    width: 90%;
 }
 
 .answer {
@@ -75,6 +76,8 @@ ul {
     cursor: pointer;
     border: 1px black dashed;
     box-shadow: 1px 1px 2px black;
+    width: 100%;
+    text-align: center;
 }
 
 .answer:hover {
@@ -123,6 +126,14 @@ ul {
     display: flex;
     justify-content: space-around;
     width: 20%;
+}
+
+.answer-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
 }
 
 .roundend {

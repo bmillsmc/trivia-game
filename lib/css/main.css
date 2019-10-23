@@ -165,3 +165,10 @@ ul {
 .loading {
     font-size: 3vw;
 }
+
+.drop-down-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}

@@ -161,3 +161,7 @@ ul {
 .incorrect {
     color: red;
 }
+
+.loading {
+    font-size: 4vw;
+}

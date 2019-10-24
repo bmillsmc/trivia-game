@@ -13,7 +13,7 @@ body {
 }
 
 main {
-    height: 85%;
+    height: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,7 +28,7 @@ h1 {
 header {
     display: flex;
     justify-content: center;
-    height: 10%;
+    height: 5%;
 }
 
 footer {    
@@ -111,6 +111,8 @@ p {
     padding: 5px;
     cursor: pointer;
     background-color: lightgrey;
+    border-radius: 10px;
+    border: black solid 1px;
 }
 
 .button:hover {
@@ -151,8 +153,18 @@ p {
 
 .roundend {
     width: 90%;
+    
     font-size: 22px;
     text-align: center;
+    
+}
+
+.roundend-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 75%;
 }
 
 .correct {

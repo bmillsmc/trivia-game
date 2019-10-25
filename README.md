@@ -7,6 +7,9 @@ The game is deployed [here](https://bmillsmc.github.io/trivia-game/lib/) and is 
 ### On Desktop
 ![desktop_example_image](lib/images/example.png)
 
+### On Mobile
+![mobile_example_image](lib/images/example2.png)
+
 ## Playing the game
 To play simply open the website and you will be brought to a page where you can pick your catagory, difficulty, and how many questions you want to play. The game is scored based on time. You have 15 seconds to answer each question and if you get it correct your remaining time is added to your score. If you get it wrong or run out of time, you'll lose points. At the end you'll get your score and how many questions you got right and wrong.
 

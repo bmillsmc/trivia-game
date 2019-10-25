@@ -5,7 +5,7 @@ This is a browser based trivia game. Its fully functional using Javascript, CSS,
 The game is deployed [here](https://bmillsmc.github.io/trivia-game/lib/) and is easy and free to play. It works on both desktop and mobile, so feel free to send it to your friends no matter their device.
 
 ### On Desktop
-![desktop_example_image](images/example.png)
+![desktop_example_image](lib/images/example.png)
 
 ## Playing the game
 To play simply open the website and you will be brought to a page where you can pick your catagory, difficulty, and how many questions you want to play. The game is scored based on time. You have 15 seconds to answer each question and if you get it correct your remaining time is added to your score. If you get it wrong or run out of time, you'll lose points. At the end you'll get your score and how many questions you got right and wrong.

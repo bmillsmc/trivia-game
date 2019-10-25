@@ -5,7 +5,7 @@
 
 body {
     height: 100vh;
-    width: 100wh;
+    width: 100%;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -64,11 +64,6 @@ p {
     align-items: center;
     border: dashed grey 1px;
     border-radius: 20px;
-}
-
-.trivia-game:onclick {
-    border: solid grey 1px;
-    box-shadow: inset 3px 3px 3px grey;
 }
 
 .question {
